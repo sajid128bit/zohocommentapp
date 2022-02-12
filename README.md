@@ -3,9 +3,11 @@
 
 ################INSTRUCTION TO ACCESS DEPLOYED APPLICATION######################
 ################ DEPLOYED URL ##################################################
-This is project has been deployed in cloud so simply access application by clicking on the below URL
+This is project has been deployed in cloud so simply access application by clicking on the below URL.
 
  https://clientzoho.herokuapp.com/
+
+ After clicking URl please wait for 5 to 10 seconds as it is free server it takes time
 
 ########################INSTRUCTIONS TO RUN IN LOCAL SYSTEM################################
 
