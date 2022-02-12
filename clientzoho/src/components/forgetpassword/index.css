@@ -1,0 +1,119 @@
+.forget-bg-container{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forget-container{
+    height:60%;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget-heading{
+    color:#000000;
+    font-family: "Roboto";
+    font-weight: 650;
+    font-size: 35px;
+}
+.forget-data-container{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forget-form-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget-label-input{
+    width:100%;
+    margin-bottom:15px;
+}
+.forget-label-style{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 25px;
+    margin-bottom:17px;
+}
+.forget-input-style{
+    border-color:#9b9c9e;
+    border-radius: 8px;
+    border-width: 1px;
+    height:20px;
+    width:90%;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 25px;
+    padding:15px;
+    margin-top:15px;
+
+}
+.forget-button-style{
+    height:50px;
+    width:100%;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #5b85c9;
+    color:#ffffff;
+    font-size:25px;
+    font-family: "Roboto";
+    font-weight: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+.forget-fav-lock{
+    color:#cbdaf2;
+
+}
+.forget-para{
+    margin-left:auto;
+    margin-right:auto;
+}
+.error-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+}
+.suggest-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 400;
+}
+.signup-account-para{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 20px;
+}
+.signup-between{
+    color:#2a6edb;
+}
+@media all and (min-width:900px){
+    .forget-container{
+        height:550px;
+        width:400px;
+    }
+    .forget-heading{
+        font-weight: 700;
+        font-size: 35px;
+    }
+}

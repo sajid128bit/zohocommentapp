@@ -1,0 +1,127 @@
+.bg-container{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signin-container{
+    height:60%;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.data-container{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signin-heading{
+    color:#000000;
+    font-family: "Roboto";
+    font-weight: 650;
+    font-size: 35px;
+}
+.account-para{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 22px;
+}
+.label-input{
+    width:100%;
+    margin-bottom:20px;
+}
+.label-style{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.input-style{
+    border-color:#9b9c9e;
+    border-radius: 8px;
+    border-width: 2px;
+    height:20px;
+    width:90%;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 25px;
+    padding:15px;
+    margin-top: 10px;
+
+}
+.form-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forget-password{
+    color:#2a6edb;
+    font-family: "Roboto";
+    font-weight: 350;
+    font-size: 18px;
+    margin-top:5px;
+    align-self: flex-end;
+    text-decoration: none;
+}
+.button-style{
+    height:50px;
+    width:100%;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #5b85c9;
+    color:#ffffff;
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fav-lock{
+    color:#cbdaf2;
+
+}
+.signin-para{
+    margin-left:auto;
+    margin-right:auto;
+}
+.sign-up-between{
+    color:#2a6edb;
+    text-decoration: none;
+}
+.error-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+@media all and (min-width:900px){
+    .signin-container{
+        height:550px;
+        width:400px;
+    }
+    .signin-heading{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .account-para{
+        font-weight: 450;
+        font-size: 24px;
+    }
+
+}

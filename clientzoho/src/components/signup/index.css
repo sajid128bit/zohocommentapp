@@ -1,0 +1,142 @@
+.signup-bg-container{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container{
+    height:70%;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-heading{
+    color:#000000;
+    font-family: "Roboto";
+    font-weight: 650;
+    font-size: 30px;
+}
+.signup-data-container{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-account-para{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 20px;
+}
+.signup-between{
+    color:#2a6edb;
+}
+.signup-form-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-label-input{
+    width:100%;
+    margin-bottom:15px;
+}
+.signup-label-style{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 22px;
+    margin-bottom:12px;
+}
+.signup-input-style{
+    border-color:#9b9c9e;
+    border-radius: 8px;
+    border-width: 1px;
+    height:20px;
+    width:90%;
+    font-family: "Roboto";
+    font-weight: 450;
+    font-size: 22px;
+    padding:5px;
+    margin-top:10px;
+
+}
+.signup-forget-password{
+    color:#2a6edb;
+    font-family: "Roboto";
+    font-weight: 350;
+    font-size: 18px;
+    margin-top:10px;
+    align-self: flex-end;
+}
+.signup-button-style{
+    height:45px;
+    width:100%;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #5b85c9;
+    color:#ffffff;
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.signup-fav-lock{
+    color:#cbdaf2;
+
+}
+.signup-para{
+    margin-left:auto;
+    margin-right:auto;
+}
+.signup-terms{
+    color:#3e3f42;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top:15px;
+    text-align: center;
+
+}
+.error-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+}
+.suggest-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+.sign-in-between{
+    color:#2a6edb;
+    text-decoration: none;
+}
+@media all and (min-width:900px){
+    .signup-container{
+        height:550px;
+        width:400px;
+    }
+    .signup-heading{
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .signup-account-para{
+        font-weight: 450;
+        font-size: 24px;
+    }
+
+}
